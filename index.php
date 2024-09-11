@@ -2,29 +2,14 @@
 <html>
 <body>
  
-  /* <h1>My first PHP Page</h1>
+ 
+<?php
+$t = 14;
 
-     <?php 
-        echo "hello World! "; 
-         echo "<br>";
-
-    $color = "blue";
-
-    echo "My car is", " ", $color;
-
-     echo "<br>";
-
-       echo "wellcome home!";
-      
-       echo "<br";
-
-       $age = 5;
-       $name = "sumon";
-
-       echo "amar boyos" ;
-
-
-    ?> 
+if ($t < 20) {
+  echo "Have a good day!";
+}
+?>
 
 </body>
 </html>
