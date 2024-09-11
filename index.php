@@ -1,15 +1,10 @@
-<!DOCTYPE html>
-<html>
-<body>
+ <?php 
  
+  $t = 15;
+   if ($t== 14) {
+      echo "Have a Good day";
+   }else {
+      echo "Sorry! baby now not day,";
+   }
  
-<?php
-$t = 14;
-
-if ($t < 20) {
-  echo "Have a good day!";
-}
-?>
-
-</body>
-</html>
+ ?>
