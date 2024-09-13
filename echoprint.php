@@ -28,4 +28,19 @@ echo "<br>";
 
 echo '<h2>' . $txt1 . '</h2>';
 echo '<p> study PHP at' . $txt2 . '</p>';
+
+echo '<br>';
+print "hello PHP";
+print "<br>";
+print ("hello php");
+
+$name = "this name is best";
+
+print '<h2>' . $txt1 . '</h2>';
+print '<br>';
+print '<p>Study PHP at ' . $name . '</p>';
+
+
+
+
 ?>
