@@ -1,18 +1,20 @@
- <?php
-// class Fruits {
-//     public function myValue(){
-//       return __CLASS__;
-//     }
-//   }
-//   $kiwi = new Fruits();
-//   echo $kiwi->myValue();
+<?php
+namespace myArea;
 
-//echo __DIR__;// file ar jonno use kora hoy
-// echo __FILE__;
-
-function myValue(){
-    return __FUNCTION__;
-} 
-echo myValue();
-
+class Fruits {
+  public function myValue(){
+    return Fruits::class;
+  }
+}
 ?>
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$name = new Fruits();
+echo $name->myValue();
+?>
+
+</body>
+</html>
