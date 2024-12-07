@@ -1,7 +1,15 @@
 <?php
-function myphp() {
-    echo "Hello world";
+function myphp($fname) {
+    echo "$fname rafsana";
 }
-myphp();
+myphp("jani");
+echo "<br>";
+myphp("hege");
+echo "<br>";
+myphp("stale");
+echo "<br>";
+myphp("Borge");
+echo "<br>";
+myphp("kai jim")
 
 ?>
